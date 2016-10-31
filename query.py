@@ -106,10 +106,3 @@ def search_brands_by_name(mystr):
 def get_models_between(start_year, end_year):
     
     models_list = Model.query.filter( (Model.year >= start_year) & (Model.year < end_year)).all()
-
-
-
-
-
-
-
